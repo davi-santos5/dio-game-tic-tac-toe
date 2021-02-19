@@ -82,5 +82,8 @@ function restart() {
   restartBtn.style.background = "#ccc";
   restartBtn.innerHTML = "Restart";
 
-  changePlayer("X");
+  player = "X";
+  label.innerHTML = `Player ${player}`;
+  label.style.color = "#000";
+  label.style.fontWeight = "normal";
 }
